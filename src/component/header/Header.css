@@ -27,6 +27,20 @@ header {
     bottom: 3rem;
 }
 
+.img_des {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+
+}
+
+.head_description {
+    display: flex;
+    width: 500px;
+    padding-left: 80px;
+    padding-top: 90px;
+}
+
 .header_social::after {
     content: '';
     width: 1px;
@@ -34,7 +48,9 @@ header {
     background: var(--color-primary);
 }
 
+
 .me {
+    display: flex;
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
     height: 30rem;
@@ -42,6 +58,7 @@ header {
     left: 50%;
     transform: translateX(-50%);
     margin-top: 0.9rem;
+    margin-left: 14rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
@@ -58,7 +75,24 @@ header {
 
 @media screen and (max-width:1024px) {
     header {
-        height: 90vh;
+        height: 100vh;
+    }
+
+    .img_des {
+        text-align: center;
+        align-items: center;
+    }
+
+
+
+    .me {
+        display: none;
+    }
+
+    .head_description {
+        width: 400px;
+        padding-left: 80px;
+        font-size: small;
     }
 
 }
@@ -68,6 +102,11 @@ header {
     header {
         height: 100vh;
     }
+
+    .img_des {
+        display: block;
+    }
+
 
     .header_social .scroll-down {
         display: none;
