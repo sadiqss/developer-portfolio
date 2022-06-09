@@ -13,7 +13,7 @@ const Nav = () => {
         <nav>
             <a href="#" onClick={() => setActiveNow('#')} className={activeNow === '#' ? 'active' : ''}><AiFillHome></AiFillHome></a>
             <a href="#about" onClick={() => setActiveNow('#about')} className={activeNow === '#about' ? 'active' : ''}><AiOutlineUser></AiOutlineUser></a>
-            <a href="#project" onClick={() => setActiveNow('#project')} className={activeNow === '#project' ? 'active' : ''}><AiFillProject></AiFillProject></a>
+            <a href="#experience" onClick={() => setActiveNow('#project')} className={activeNow === '#experience' ? 'active' : ''}><AiFillProject></AiFillProject></a>
             <a href="#services" onClick={() => setActiveNow('#services')} className={activeNow === '#services' ? 'active' : ''}><RiServiceFill></RiServiceFill></a>
             <a href="#contact" onClick={() => setActiveNow('#contact')} className={activeNow === '#contact' ? 'active' : ''}><AiFillContacts></AiFillContacts></a>
         </nav>
