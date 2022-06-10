@@ -3,6 +3,7 @@ import CTA from './CTA';
 import './Header.css';
 import me from '../../assets/me.png';
 import HeaderSocial from './HeaderSocial';
+import TextAnimation from './TextAnimation';
 
 const Header = () => {
     return (
@@ -11,7 +12,7 @@ const Header = () => {
                 <h5>Hello I'm</h5>
                 <h1>Sadiqur Rahman</h1>
                 <h5 className="text-light">
-                    Fullstack Developer
+                    <TextAnimation></TextAnimation>
                 </h5>
 
 
