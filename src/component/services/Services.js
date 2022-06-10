@@ -19,15 +19,15 @@ const Services = () => {
                         </li>
                         <li>
                             <BsCheck className='service_list-icon'></BsCheck>
-                            <p>I can build website that are client focused and provide tangible business results.</p>
+                            <p>Excellent technical communication.</p>
                         </li>
                         <li>
                             <BsCheck className='service_list-icon'></BsCheck>
-                            <p>I can build website that are client focused and provide tangible business results.</p>
+                            <p>Pixel-perfect website UI UX.</p>
                         </li>
                         <li>
                             <BsCheck className='service_list-icon'></BsCheck>
-                            <p>I can build website that are client focused and provide tangible business results.</p>
+                            <p>Responsive Web App UI UX.</p>
                         </li>
                     </ul>
                 </article>
@@ -38,19 +38,19 @@ const Services = () => {
                     <ul className="service_list">
                         <li>
                             <BsCheck className='service_list-icon'></BsCheck>
-                            <p>I can build website that are client focused and provide tangible business results.</p>
+                            <p>Professional website with modern theme.</p>
                         </li>
                         <li>
                             <BsCheck className='service_list-icon'></BsCheck>
-                            <p>I can build website that are client focused and provide tangible business results.</p>
+                            <p>E commerce And Shoping system integration.</p>
                         </li>
                         <li>
                             <BsCheck className='service_list-icon'></BsCheck>
-                            <p>I can build website that are client focused and provide tangible business results.</p>
+                            <p> Mobile-Friendly designs.</p>
                         </li>
                         <li>
                             <BsCheck className='service_list-icon'></BsCheck>
-                            <p>I can build website that are client focused and provide tangible business results.</p>
+                            <p>Back End Web Development with NodeJS.</p>
                         </li>
                     </ul>
                 </article>
@@ -61,19 +61,19 @@ const Services = () => {
                     <ul className="service_list">
                         <li>
                             <BsCheck className='service_list-icon'></BsCheck>
-                            <p>I can build website that are client focused and provide tangible business results.</p>
+                            <p>SEO Optimized Content.</p>
                         </li>
                         <li>
                             <BsCheck className='service_list-icon'></BsCheck>
-                            <p>I can build website that are client focused and provide tangible business results.</p>
+                            <p>Eye Catching.</p>
                         </li>
                         <li>
                             <BsCheck className='service_list-icon'></BsCheck>
-                            <p>I can build website that are client focused and provide tangible business results.</p>
+                            <p>No Grammatical Mistakes.</p>
                         </li>
                         <li>
                             <BsCheck className='service_list-icon'></BsCheck>
-                            <p>I can build website that are client focused and provide tangible business results.</p>
+                            <p>Attractive captions.</p>
                         </li>
                     </ul>
                 </article>
