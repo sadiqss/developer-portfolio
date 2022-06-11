@@ -1,15 +1,18 @@
 import React, { useRef } from 'react';
+import emailjs from 'emailjs-com';
 import './Contact.css';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsWhatsapp } from 'react-icons/bs';
-import emailjs from 'emailjs-com';
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Contact = () => {
+    const notify = () => toast("Your Message has been Sent!");
     const form = useRef();
     const sendEmail = (e) => {
+
         e.preventDefault();
 
-        emailjs.sendForm('service_aazvxbe', 'service_aazvxbe', form.current, 'f6N0yjaVN4bvI2Gtd')
+        emailjs.sendForm('service_aazvxbe', 'template_9bw42c4', form.current, 'f6N0yjaVN4bvI2Gtd')
 
         e.target.reset();
     };
@@ -36,8 +39,9 @@ const Contact = () => {
                     <input type="text" name='name' placeholder='Your Name' required />
                     <input type="email" name='email' placeholder='Your Email' required />
                     <textarea name="message" id="" placeholder='Your Message' required></textarea>
-                    <button type='submit' className='btn btn-primary'>Send Message</button>
+                    <button onClick={notify} type='submit' className='btn btn-primary'>Send Message</button>
                 </form>
+                <ToastContainer />
             </div>
         </section>
     );
